@@ -93,10 +93,7 @@ div img {
   
 }
 
-#contacto {
-    transform: translate(2,5%);
-    text-align: left;
-}
+
 input[type="submit"] {
     background-color: rgb(213,221,193);
     color: rgb(84, 87, 76);
@@ -179,3 +176,22 @@ main {
     margin:20px;
     padding: 1em;
 }
+
+.contenedores {
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+  
+  .formcontacto {
+    width: 50%;
+    margin-top: 0%;
+   
+  }
+  
+  .map {
+    width: 50%;
+    margin-top: 1%;
+  }
