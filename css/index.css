@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(158,176,97);
+    background: linear-gradient(313deg, rgb(216, 235, 154) 0%, rgb(223, 236, 179) 50%, rgba(255,255,255,1) 100%);
+    font-family:'Montserrat', sans-serif;;
+}
+
+header {    background-color:  rgb(213,221,193);
+            width: 100% ;
+            border-style: solid;
+            border-color: rgb(231, 241, 206);
+            clear: both ;
+            display: flex ;
+}
+
+.menu {
+     width: 63em;
+     margin: auto;
+}
+
+header img {
+      width: 125px;
+      float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+             list-style: none;
+             margin: 10px;
+             padding: 10px;
+             float:left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(84, 87, 76)
+}
+
+div {
+    display:inline-block;
+    margin: 30px;
+}
+div img {
+    width: 200px;
+    margin: 5px;
+}
+
+#organizacion {
+
+         text-align:center ;
+         list-style: none;
+         display: inline-block ;
+    
+}
+
+#organizacion h2 {
+    background-color:  rgb(213,221,193);
+    color: rgb(84, 87, 76);
+    margin: 25px;
+    padding: 10px;
+}
+
+#personal {
+    text-align:center ;
+    list-style: none;
+    display:inline-block;
+
+}
+#personal h2 {
+    background-color:  rgb(213,221,193);
+    color: rgb(84, 87, 76);
+    margin: 25px;
+    padding: 10px;
+}
+
+.Contacto1 {
+    background-color: rgb(213,221,193);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(84, 87, 76);
+    height: 50px;
+    line-height: 50px;
+    width: 1295px;
+  
+}
+
+#contacto {
+    transform: translate(2,5%);
+    text-align: left;
+}
+input[type="submit"] {
+    background-color: rgb(213,221,193);
+    color: rgb(84, 87, 76);
+    padding: 5px 5px;
+    border:solid 2px rgb(84, 87, 76);
+    border-radius: 4px;
+    cursor:pointer;
+    font-size: medium;
+}
+input[type="submit"]:hover {
+    background-color: #ffffff;
+    text-align: center;
+}
+input,
+textarea {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  font-size: medium;
+  width: 200px;
+}
+
+form {
+    margin: 0 auto ;
+    width: 200px;
+}
+
+#proceso h2{
+    background-color: rgb(213,221,193);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(84, 87, 76);
+    height: 50px;
+    line-height: 50px;
+    width: 1295px;
+    transform: translate(2,5%);
+    text-align: center;
+
+}
+
+.controles {
+font-family: 'Montserrat', sans-serif;
+text-align: left;
+width: 250px;
+border: none;
+border-radius: 5px;
+font-size: medium;
+}
+
+textarea {
+    width: 250px
+}
+
+::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+/* edicion paginaS
+_______________________________*/
+.primerart {
+         text-align:center ;
+         list-style: none;
+         display: inline-block;
+}
+
+.encabezados {
+
+    
+    text-align:center ;
+    background-color:  rgb(213,221,193);
+    color: rgb(84, 87, 76);
+    margin: 25px;
+    padding: 10px;
+
+}
+
+main {
+    margin:20px;
+    padding: 1em;
+}
