@@ -55,25 +55,33 @@ div img {
 
 #organizacion {
 
-         text-align:center ;
-         list-style: none;
-         display: inline-block ;
+         text-align: center ;
+         display: flexbox;
+         padding: 10px;
+         margin: 25px;
     
 }
+
+#organizacion ul {
+    list-style: none;
+}
+
 
 #organizacion h2 {
     background-color:  rgb(213,221,193);
     color: rgb(84, 87, 76);
-    margin: 25px;
-    padding: 10px;
+    margin: 25px ;
+    padding: 10px ;
 }
 
 #personal {
-    text-align:center ;
-    list-style: none;
-    display:inline-block;
+         text-align:center ;
+         display: flexbox ;
+         padding: 10px ;
+         margin: 25px ;
 
 }
+
 #personal h2 {
     background-color:  rgb(213,221,193);
     color: rgb(84, 87, 76);
