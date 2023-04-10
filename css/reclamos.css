@@ -1,0 +1,103 @@
+header {    background-color:  rgb(213,221,193);
+    width: 100% ;
+    border-style: solid;
+    border-color: rgb(231, 241, 206);
+    clear: both ;
+    display: flex ;
+}
+
+.menu {
+width: 63em;
+margin: auto;
+}
+
+header img {
+width: 125px;
+float: left;
+}
+
+nav {
+float: right;
+}
+
+nav ul li {
+     list-style: none;
+     margin: 10px;
+     padding: 10px;
+     float:left;
+}
+
+nav ul li a {
+text-decoration: none;
+color: rgb(84, 87, 76)
+}
+
+
+footer {
+    background-color: rgb(158, 176, 97);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(313deg, rgb(216, 235, 154) 0%, rgb(223, 236, 179) 50%, rgba(255,255,255,1) 100%);
+      margin: 0;
+    }
+  
+    .form-container {
+      background-color: rgb(158, 176, 97);
+      max-width: 400px;
+      margin: 50px auto;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+  
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+  
+    input, textarea, select {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+  
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #2c3e50;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  
+    button:hover {
+      background-color: #2c3e50;
+    }
+
+    html, body {
+        height: 100%;
+        margin: 0;
+      }
+      
+      .page-content {
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      
+     
