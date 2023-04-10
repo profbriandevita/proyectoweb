@@ -81,6 +81,7 @@ div img {
          padding: 10px ;
          margin: 25px ;
          letter-spacing: 1px;
+         font-size: em;
 
 }
 
@@ -93,8 +94,16 @@ div img {
 
 .eko1 {
     display: inline-flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    
+
 }
+
+.eko2 {
+    width: auto;
+    margin: 50px;
+}
+
 
 .iconos {
     width: 150px;
@@ -175,11 +184,23 @@ textarea {
 /* edicion paginaS
 _______________________________*/
 .primerart {
-         text-align:center ;
+         text-align: center ;
          list-style: none;
-         display: inline-block;
+         display: inline-flex;
          letter-spacing: 1px;
+         flex-direction: column;
+         background-color: #ffffff;
+         margin: 30px;
+         padding: 1em;
+         border-radius: 3em;
+        
 }
+
+.img2 {
+    width: 400px;
+    display:inline ;
+}
+
 
 .encabezados {
 
