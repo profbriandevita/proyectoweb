@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario de Reclamo</title>
+<link rel="stylesheet" href="/css/reclamos.css">
+
+</head>
+
+<body>
+  <div class="page-content">
+  <header>
+    <img class="logo" src="/img/logo-pie.png" alt="Logo de EcoTienda">
+    <nav class="menu">
+      <ul>
+        <li><a href="/enlaces/pagina1.html">¿POR QUÉ ELEGIRNOS?</a></li>
+        <li><a href="/enlaces/pagina2.html">NUESTRAS MATERIAS</a></li>
+        <li><a href="/enlaces/pagina3.html">¿QUIENES SOMOS?</a></li>
+        <li><a href="/enlaces/pagina4.html">NUESTRA FILOSOFIA</a></li>
+      </ul>
+    </nav>
+  </header>
+</head>
+<body>
+<div class="form-container">
+  <h1>Formulario de Reclamo</h1>
+  <form id="formulario">
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" id="nombre" name="nombre" >
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" >
+
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono">
+
+    <label for="tipo-reclamo">Tipo de reclamo:</label>
+    <select id="tipo-reclamo" name="tipo-reclamo" >
+      <option value="">Seleccione...</option>
+      <option value="facturacion">Facturación</option>
+      <option value="producto">Producto</option>
+      <option value="servicio">Servicio</option>
+      <option value="otro">Otro</option>
+    </select>
+
+    <label for="descripcion">Descripción del reclamo:</label>
+    <textarea id="descripcion" name="descripcion" rows="5" ></textarea>
+
+    <button type="submit">Enviar reclamo</button>
+  </form>
+</div>
+</div>
+<script src="/js/index.js"></script>
+</body>
+<footer>
+  <p>&copy; 2023 EcoTienda. Todos los derechos reservados.</p>
+</footer>
+</html>
