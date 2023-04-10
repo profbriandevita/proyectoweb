@@ -186,7 +186,7 @@ _______________________________*/
 .primerart {
          text-align: center ;
          list-style: none;
-         display: inline-flex;
+         display: flex;
          letter-spacing: 1px;
          flex-direction: column;
          background-color: #ffffff;
