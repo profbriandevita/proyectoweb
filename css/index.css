@@ -56,9 +56,10 @@ div img {
 #organizacion {
 
          text-align: center ;
-         display: flexbox;
+         display: inline;
          padding: 10px;
          margin: 25px;
+         letter-spacing: 1px;
     
 }
 
@@ -75,10 +76,12 @@ div img {
 }
 
 #personal {
-         text-align:center ;
-         display: flexbox ;
+         text-align: center ;
+         display: inline ;
          padding: 10px ;
          margin: 25px ;
+         letter-spacing: 1px;
+         font-size: em;
 
 }
 
@@ -87,6 +90,23 @@ div img {
     color: rgb(84, 87, 76);
     margin: 25px;
     padding: 10px;
+}
+
+.eko1 {
+    display: inline-flex;
+    justify-content: space-around;
+    
+
+}
+
+.eko2 {
+    width: auto;
+    margin: 50px;
+}
+
+
+.iconos {
+    width: 150px;
 }
 
 .Contacto1 {
@@ -164,10 +184,23 @@ textarea {
 /* edicion paginaS
 _______________________________*/
 .primerart {
-         text-align:center ;
+         text-align: center ;
          list-style: none;
-         display: inline-block;
+         display: inline-flex;
+         letter-spacing: 1px;
+         flex-direction: column;
+         background-color: #ffffff;
+         margin: 30px;
+         padding: 1em;
+         border-radius: 3em;
+        
 }
+
+.img2 {
+    width: 400px;
+    display:inline ;
+}
+
 
 .encabezados {
 
@@ -181,9 +214,10 @@ _______________________________*/
 }
 
 main {
-    margin:20px;
+    margin: 0px;
     padding: 1em;
 }
+
 
 .contenedores {
     margin-top: 0%;
