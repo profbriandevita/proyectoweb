@@ -246,10 +246,11 @@ main {
 
   footer {
     background-color:  rgb(213,221,193);
-    text-align: center;
-    padding: 20px;
+    padding: 30px;
     display: flex;
-    
+    font-display: verdana;
+    flex-wrap: wrap;
+    margin
   }
   
   footer a {
