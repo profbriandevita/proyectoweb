@@ -56,9 +56,10 @@ div img {
 #organizacion {
 
          text-align: center ;
-         display: flexbox;
+         display: inline;
          padding: 10px;
          margin: 25px;
+         letter-spacing: 1px;
     
 }
 
@@ -75,10 +76,11 @@ div img {
 }
 
 #personal {
-         text-align:center ;
-         display: flexbox ;
+         text-align: center ;
+         display: inline ;
          padding: 10px ;
          margin: 25px ;
+         letter-spacing: 1px;
 
 }
 
@@ -87,6 +89,15 @@ div img {
     color: rgb(84, 87, 76);
     margin: 25px;
     padding: 10px;
+}
+
+.eko1 {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.iconos {
+    width: 150px;
 }
 
 .Contacto1 {
@@ -167,6 +178,7 @@ _______________________________*/
          text-align:center ;
          list-style: none;
          display: inline-block;
+         letter-spacing: 1px;
 }
 
 .encabezados {
@@ -181,9 +193,10 @@ _______________________________*/
 }
 
 main {
-    margin:20px;
+    margin: 0px;
     padding: 1em;
 }
+
 
 .contenedores {
     margin-top: 0%;
