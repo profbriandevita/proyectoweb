@@ -123,6 +123,7 @@ div img {
 
 
 input[type="submit"] {
+    display: block;
     background-color: rgb(213,221,193);
     color: rgb(84, 87, 76);
     padding: 5px 5px;
@@ -246,19 +247,27 @@ main {
 
   footer {
     background-color:  rgb(213,221,193);
-    padding: 30px;
+    padding: 1px;
     display: flex;
     font-display: verdana;
-    flex-wrap: wrap;
-    margin
+
   }
   
   footer a {
     text-decoration: none;
     color: black;
+
   }
   
   footer a:hover {
     text-decoration: underline;
+
   }
-  
+  footer p {
+    text-decoration: underline;
+    font-size: 20px
+
+  }
+  footer div {
+    text-align: left;
+  }
