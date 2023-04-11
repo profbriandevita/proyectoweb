@@ -123,6 +123,7 @@ div img {
 
 
 input[type="submit"] {
+    display: block;
     background-color: rgb(213,221,193);
     color: rgb(84, 87, 76);
     padding: 5px 5px;
@@ -130,10 +131,13 @@ input[type="submit"] {
     border-radius: 4px;
     cursor:pointer;
     font-size: medium;
+    
+    
 }
 input[type="submit"]:hover {
     background-color: #ffffff;
     text-align: center;
+
 }
 input,
 textarea {
@@ -233,5 +237,38 @@ main {
     width: 50%;
     margin-top: 1%;
     
+    
   }
 
+  footer {
+    background-color:  rgb(213,221,193);
+    padding: 1px;
+    display: flex;
+    font-display: verdana;
+
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: black;
+
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+
+  }
+  footer p {
+    text-decoration: underline;
+    font-size: 20px
+
+  }
+  footer div {
+    text-align: left;
+  }
+
+
+.imagecami{
+    border-radius: 5px;
+    border: solid rgb(213,221,193);
+}
