@@ -34,10 +34,6 @@ color: rgb(84, 87, 76)
 
 
 
-
-
-
-
     body {
       font-family: Arial, sans-serif;
       background: linear-gradient(313deg, rgb(216, 235, 154) 0%, rgb(223, 236, 179) 50%, rgba(255,255,255,1) 100%);
@@ -99,4 +95,30 @@ color: rgb(84, 87, 76)
         flex-direction: column;
       }
       
-     
+      footer {
+        background-color:  rgb(213,221,193);
+        padding: 1px;
+        display: flex;
+        font-display: verdana;
+    
+      }
+      
+      footer a {
+        text-decoration: none;
+        color: black;
+    
+      }
+      
+      footer a:hover {
+        text-decoration: underline;
+    
+      }
+      footer p {
+        text-decoration: underline;
+        font-size: 20px
+    
+      }
+      footer div {
+        text-align: left;
+      }
+    
