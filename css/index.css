@@ -273,3 +273,7 @@ main {
   }
 
 
+.imagecami{
+    border-radius: 5px;
+    border: solid rgb(213,221,193);
+}
