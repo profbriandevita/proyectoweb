@@ -1,6 +1,7 @@
+
+
 function validateForm(e) {
     e.preventDefault();
-
     const nombre = document.getElementById("nombre-input").value;
     const apellido = document.getElementById("apellido-input").value;
     const email = document.getElementById("email-input").value;
@@ -18,7 +19,6 @@ function validateForm(e) {
     
 
   }
-
 
 
 
@@ -88,6 +88,5 @@ function validarTelefono(telefono) {
 }
 
 function enviarFormulario() {
- 
   alert("El formulario se ha enviado correctamente");
 }
