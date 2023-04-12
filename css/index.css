@@ -93,7 +93,8 @@ div img {
 }
 
 .eko1 {
-    display: inline-flex;
+    display: flex;
+    flex-wrap: nowrap;
     justify-content: space-around;
     
 
@@ -101,7 +102,9 @@ div img {
 
 .eko2 {
     width: auto;
-    margin: 50px;
+    height: max-content;
+    margin: 40px;
+    text-align: center;
 }
 
 
@@ -198,11 +201,6 @@ _______________________________*/
          padding: 1em;
          border-radius: 3em;
         
-}
-
-.img2 {
-    width: 400px;
-    display:inline ;
 }
 
 
