@@ -4,4 +4,5 @@ GRUPO A:
 3. Lucia Herrera.
 
 Eramos 5 participantes y 2  desistieron en avanza con el proyecto.
+
 La landing page consistio  en  emprendimiento de negocio .
