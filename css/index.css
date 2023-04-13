@@ -7,7 +7,7 @@
 body {
     background: rgb(158,176,97);
     background: linear-gradient(313deg, rgb(216, 235, 154) 0%, rgb(223, 236, 179) 50%, rgba(255,255,255,1) 100%);
-    font-family:'Montserrat', sans-serif;;
+    font-family:'Montserrat', sans-serif;
 }
 
 header {    background-color:  rgb(213,221,193);
@@ -68,7 +68,7 @@ div img {
 }
 
 
-#organizacion h2 {
+#organizacion h1 {
     background-color:  rgb(213,221,193);
     color: rgb(84, 87, 76);
     margin: 25px ;
@@ -85,11 +85,16 @@ div img {
 
 }
 
-#personal h2 {
+#personal h1 {
     background-color:  rgb(213,221,193);
     color: rgb(84, 87, 76);
     margin: 25px;
     padding: 10px;
+}
+
+h3 {
+    margin: 15px;
+    padding: 8px;
 }
 
 .eko1 {
@@ -197,7 +202,7 @@ _______________________________*/
          letter-spacing: 1px;
          flex-direction: column;
          background-color: #ffffff;
-         margin: 30px;
+         margin: 45px;
          padding: 1em;
          border-radius: 3em;
         
@@ -206,7 +211,6 @@ _______________________________*/
 
 .encabezados {
 
-    
     text-align:center ;
     background-color:  rgb(213,221,193);
     color: rgb(84, 87, 76);
@@ -219,6 +223,12 @@ main {
     margin: 0px;
     padding: 1em;
 }
+
+.encabezados2 {
+            display: inline-block;
+            margin: 200px;
+            padding: 50px;
+} 
 
 
 .contenedores {
@@ -243,30 +253,35 @@ main {
     
   }
 
+  .page-content {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
   footer {
     background-color:  rgb(213,221,193);
     padding: 1px;
     display: flex;
     font-display: verdana;
-  
-
-  }
+        }
   
   footer a {
     text-decoration: none;
     color: black;
-
   }
   
-  footer a:hover {
+  /*footer a:hover {
     text-decoration: underline;
+  }*/
+
+  .footitu {
+    text-decoration: underline;
+    font-size: 20px;
+    display: inline-block;
 
   }
-  footer p {
-    text-decoration: underline;
-    font-size: 20px
 
-  }
   footer div {
     text-align: left;
   }
