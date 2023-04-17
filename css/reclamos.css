@@ -39,7 +39,6 @@ text-decoration: none;
 color: rgb(84, 87, 76)
 }
 
-<<<<<<< HEAD
 
 
     body {
@@ -47,13 +46,6 @@ color: rgb(84, 87, 76)
       background: linear-gradient(313deg, rgb(207, 224, 148) 0%, rgb(213, 223, 183) 50%, rgb(252, 252, 252) 100%);
       margin: 0;
     }
-=======
-body {
-  background: rgb(158,176,97);
-  background: linear-gradient(313deg, rgb(216, 235, 154) 0%, rgb(223, 236, 179) 50%, rgba(255,255,255,1) 100%);
-  font-family:'Montserrat', sans-serif;;
-}
->>>>>>> 3371f912b9d4d6847654b4fd08d1dca914af317d
   
     .form-container {
       background-color: rgb(204, 221, 164);

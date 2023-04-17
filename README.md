@@ -3,6 +3,6 @@ GRUPO A:
 2. Camila Rosso.
 3. Lucia Herrera.
 
-Eramos 5 participantes y 2  desistieron en avanza con el proyecto.
+Eramos 5 participantes, y 2  dsistieron en avanzar con el proyecto.
 
-La landing page consistio  en  emprendimiento de negocio .
+La landing page consistió en un emprendimiento (tienda) de negocio sustentable, ofreciendo productos para el cuidado del medio ambiente.
